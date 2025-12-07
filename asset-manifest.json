@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CS_UHPS/static/css/main.275527b5.css",
+    "main.js": "/CS_UHPS/static/js/main.244bef34.js",
+    "static/js/453.42e3c156.chunk.js": "/CS_UHPS/static/js/453.42e3c156.chunk.js",
+    "index.html": "/CS_UHPS/index.html",
+    "main.275527b5.css.map": "/CS_UHPS/static/css/main.275527b5.css.map",
+    "main.244bef34.js.map": "/CS_UHPS/static/js/main.244bef34.js.map",
+    "453.42e3c156.chunk.js.map": "/CS_UHPS/static/js/453.42e3c156.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.275527b5.css",
+    "static/js/main.244bef34.js"
+  ]
+}
