@@ -2,7 +2,7 @@
   "name": "uhi-prototype",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://onsenix12.github.io/uhi-prototype",
+  "homepage": "https://jnctan0913.github.io/CS_UHPS",
   "dependencies": {
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.4.2",
@@ -12,9 +12,9 @@
     "@testing-library/user-event": "^13.5.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.555.0",
-    "react-leaflet": "^5.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-leaflet": "^5.0.0",
     "react-scripts": "5.0.1",
     "recharts": "^3.5.1",
     "three": "^0.181.2",
@@ -24,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +48,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.22",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18"
   }
